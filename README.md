@@ -82,11 +82,6 @@ docker compose down
 This setup provides a complete development environment for working with PostgreSQL and Keycloak. You can customize the configuration as needed for production environments.
 ```
 
-### Key Changes:
-- Added a **Prerequisites** section to clarify the tools needed.
-- Provided more details on how to stop the cluster.
-- Included information on versions and ports for clarity.
-- Improved formatting for readability and added links to relevant documentation.
 
 
 ### Important
