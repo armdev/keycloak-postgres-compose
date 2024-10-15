@@ -1,5 +1,3 @@
-Here’s an improved version of your `README.md` with added details and better readability:
-
 ```markdown
 # PostgreSQL 16 Cluster & Keycloak Setup
 
