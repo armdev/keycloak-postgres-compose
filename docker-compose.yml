@@ -22,8 +22,7 @@ services:
     volumes:
       - ./realm-config:/opt/keycloak/data/import
       - ./realm-config/keycloak-health-check.sh:/opt/keycloak/health-check.sh
-    environment:
-      - KC_DB=dev-file
+    environment:   
       - KEYCLOAK_ADMIN=admin
       - KEYCLOAK_ADMIN_PASSWORD=admin
       - KC_DB_URL=jdbc:postgresql://postgresql:5432/keycloak
