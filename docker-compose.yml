@@ -6,7 +6,7 @@ services:
       - '5432'
     volumes:
       - 'pg_data:/bitnami/postgresql'
-      - ./configs/postgresql.conf:/opt/bitnami/postgresql/conf/postgresql.conf:rw     
+      - ./configs/postgresql.conf:/etc/postgresql/postgresql.conf:rw  
     environment:     
       - POSTGRESQL_USERNAME=postgres
       - POSTGRESQL_PASSWORD=PkAX16o639vwj5u
